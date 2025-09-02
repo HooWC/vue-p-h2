@@ -1,5 +1,4 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Layout from '../components/Layout.vue'
 import V1Home from '../pages/v1/V1Home.vue'
 import V1About from '../pages/v1/V1About.vue'
 
@@ -7,19 +6,13 @@ import V1About from '../pages/v1/V1About.vue'
 const routes = [
   {
     path: '/',
-    component: Layout,
-    children: [
-      {
-        path: '',
-        name: 'v1-home',
-        component: V1Home
-      },
-      {
-        path: 'about',
-        name: 'v1-about',
-        component: V1About
-      }
-    ]
+    name: 'v1-home',
+    component: V1Home
+  },
+  {
+    path: '/about',
+    name: 'v1-about',
+    component: V1About
   }
 ]
 
