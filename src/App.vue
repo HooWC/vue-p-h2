@@ -1,12 +1,10 @@
 <script setup>
-import Layout from './components/Layout.vue'
+// App.vue 只负责渲染路由视图
 </script>
 
 <template>
   <div id="app">
-    <Layout>
-      <router-view />
-    </Layout>
+    <router-view />
   </div>
 </template>
 

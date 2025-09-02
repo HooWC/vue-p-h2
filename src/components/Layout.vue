@@ -9,7 +9,7 @@
     </header>
     
     <main class="main">
-      <slot />
+      <router-view />
     </main>
     
     <footer class="footer">
