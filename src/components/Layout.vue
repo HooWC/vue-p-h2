@@ -3,8 +3,9 @@
     <header class="header">
       <h1>Vue 3 学习项目</h1>
       <nav class="nav">
-        <router-link to="/" class="nav-link">首页</router-link>
-        <router-link to="/about" class="nav-link">关于</router-link>
+        <router-link to="/" class="nav-link">V1首页</router-link>
+        <router-link to="/about" class="nav-link">V1关于</router-link>
+        <router-link to="/v2/posts" class="nav-link">V2文章管理</router-link>
       </nav>
     </header>
     
